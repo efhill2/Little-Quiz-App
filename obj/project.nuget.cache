@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "v5e8btw8IX0=",
+  "success": true,
+  "projectFilePath": "/Users/eugenefhill/Software Development Projects/Little Quiz App/Little Quiz App.csproj",
+  "expectedPackageFiles": [
+    "/Users/eugenefhill/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/eugenefhill/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/eugenefhill/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.20/microsoft.netcore.app.host.osx-arm64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

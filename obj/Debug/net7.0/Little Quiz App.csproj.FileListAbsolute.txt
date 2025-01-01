@@ -1,0 +1,15 @@
+/Users/eugenefhill/Software Development Projects/Little Quiz App/bin/Debug/net7.0/Little Quiz App
+/Users/eugenefhill/Software Development Projects/Little Quiz App/bin/Debug/net7.0/Little Quiz App.deps.json
+/Users/eugenefhill/Software Development Projects/Little Quiz App/bin/Debug/net7.0/Little Quiz App.runtimeconfig.json
+/Users/eugenefhill/Software Development Projects/Little Quiz App/bin/Debug/net7.0/Little Quiz App.dll
+/Users/eugenefhill/Software Development Projects/Little Quiz App/bin/Debug/net7.0/Little Quiz App.pdb
+/Users/eugenefhill/Software Development Projects/Little Quiz App/obj/Debug/net7.0/Little Quiz App.csproj.AssemblyReference.cache
+/Users/eugenefhill/Software Development Projects/Little Quiz App/obj/Debug/net7.0/Little Quiz App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eugenefhill/Software Development Projects/Little Quiz App/obj/Debug/net7.0/Little Quiz App.AssemblyInfoInputs.cache
+/Users/eugenefhill/Software Development Projects/Little Quiz App/obj/Debug/net7.0/Little Quiz App.AssemblyInfo.cs
+/Users/eugenefhill/Software Development Projects/Little Quiz App/obj/Debug/net7.0/Little Quiz App.csproj.CoreCompileInputs.cache
+/Users/eugenefhill/Software Development Projects/Little Quiz App/obj/Debug/net7.0/Little Quiz App.dll
+/Users/eugenefhill/Software Development Projects/Little Quiz App/obj/Debug/net7.0/refint/Little Quiz App.dll
+/Users/eugenefhill/Software Development Projects/Little Quiz App/obj/Debug/net7.0/Little Quiz App.pdb
+/Users/eugenefhill/Software Development Projects/Little Quiz App/obj/Debug/net7.0/Little Quiz App.genruntimeconfig.cache
+/Users/eugenefhill/Software Development Projects/Little Quiz App/obj/Debug/net7.0/ref/Little Quiz App.dll
