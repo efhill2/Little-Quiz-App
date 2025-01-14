@@ -1,68 +1,24 @@
-﻿// See https://aka.ms/new-console-template for more information
-string question1 = "What is the capital of Michigan?";
-string answer1 = "Lansing";
+﻿// See https://aka.ms/new-console-template for more information 
 
-string question2 = "What is 2 + 2?";
-string answer2 = "4";
+using Little_Quiz_App;
 
-string question3 = "What color do you get by mixing blue and yellow?";
-string answer3 = "Green";
-
-int score = 0;
-
-Console.WriteLine(question1);
-string userAnswer1 = Console.ReadLine();
-if(userAnswer1.Trim().ToLower() == answer1.ToLower())
+Question[] questions = new Question[]
 {
-    Console.WriteLine("Correct!");
-    // score = score + 1;
-    score++;
+    new Question("What is the capital of Michigan?", // Question Text
+    new string[] {"Detroit", "Ann Arbor", "Lansing"}, // Answer Array
+    2), // Correct Answer
 
-}
-else
-{
-    Console.WriteLine($"Wrong, the correct answer is {answer1}");
-}
+    new Question("What is 2 + 2", // Question Text
+    new string[] {"9", "4", "5"}, // Answer Array
+    1), // Correct Answer
 
-Console.WriteLine(question2);
-string userAnswer2 = Console.ReadLine();
-if(userAnswer2.Trim().ToLower() == answer2.ToLower())
-{
-    Console.WriteLine("Correct!");
-    score = score + 1;
+    new Question("What color do you get by mixing blue and yellow?", // Question Text
+    new string[] {"Green", "White", "Red"}, // Answer Array
+    0) // Correct Answer
+};
 
-}
-else
-{
-    Console.WriteLine($"Wrong, the correct answer is {answer2}");
-}
+Quiz myQuiz = new Quiz(questions);
 
-Console.WriteLine(question3);
-string userAnswer3 = Console.ReadLine();
-if(userAnswer3.Trim().ToLower() == answer3.ToLower())
-{
-    Console.WriteLine("Correct!");
-    score = score + 1;
+myQuiz.StartQuiz();
 
-}
-else
-{
-    Console.WriteLine($"Wrong, the correct answer is {answer3}");
-}
-
-Console.WriteLine($"Quiz completed! Your final score is: {score}/3");
-
-if(score == 3)
-{
-    Console.WriteLine("Excellent! You got all the answers right!");
-}
-else if(score > 0)
-{
-    Console.WriteLine("Good Job");
-}
-else
-{
-    Console.WriteLine("Try again!");
-}
-
-Console.ReadKey();
+Console.ReadLine();
